@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="lifehistory.js"></script>
+<title>The History of Your Life</title>
+</head>
+<body>
+	<div id="registerForm">
+		<p>
+			일시 : <input id="dateTimeInput" name="dateTime">
+		</p>
+		<p>
+			장소 : <input id="locationInput" name="location">
+		</p>
+		<p>
+			사건 : <input id="eventInput" name="event">
+		</p>
+		<p>
+			인물 : <input id="companiesInput" name="companies">
+		</p>
+		<p>
+			내용 : <input id="detailInput" name="detail">
+		</p>
+		<button id="registerButton" onclick="registerHistory()">Register</button>
+	</div>
+	<div id="registeredHistories"></div>
+	<!-- init -->
+<script type="text/javascript">
+init();
+</script>
+</body>
+</html>
